@@ -66,7 +66,7 @@ const items = [[{
     <template #header>
       <h3 class="text-lg font-semibold leading-6">
         <NuxtLink to="/">
-          Todo List
+        JesseJesse.com
         </NuxtLink>
       </h3>
 
@@ -85,7 +85,7 @@ const items = [[{
         name="todo"
         :disabled="loading"
         class="flex-1"
-        placeholder="Make a Nuxt demo"
+        placeholder="leave a message..."
         autocomplete="off"
         autofocus
         :ui="{ wrapper: 'flex-1' }"
