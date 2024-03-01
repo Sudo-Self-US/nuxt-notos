@@ -18,7 +18,7 @@ const { loggedIn } = useUserSession()
   <UCard>
     <template #header>
       <h3 class="text-lg font-semibold leading-6">
-        Notes.JesseJesse.com
+      to do items
       </h3>
       <UButton
         v-if="!loggedIn"
