@@ -18,7 +18,7 @@ const { loggedIn } = useUserSession()
   <UCard>
     <template #header>
       <h3 class="text-lg font-semibold leading-6">
-      to do items
+     Nuxt Notes
       </h3>
       <UButton
         v-if="!loggedIn"
@@ -37,10 +37,10 @@ const { loggedIn } = useUserSession()
       />
     </template>
     <p class="font-medium">
-      Nuxt Notes by JR
+      Welcome! login and start your list. 
     </p>
     <p>
-      A <a href="https://nuxt.com" target="_blank" class="text-primary-500" rel="noopener">Nuxt</a>Fullstack<a :href="hosting.url" target="_blank" rel="noopener" class="text-primary-500">{{ hosting.title }}</a> with server-side rendering on the edge and using <NuxtLink
+      A <a href="https://nuxt.com" target="_blank" class="text-primary-500" rel="noopener">Nuxt</a>&nbsp;to-do-list&nbsp;<a :href="hosting.url" target="_blank" rel="noopener" class="text-primary-500">{{ hosting.title }}</a>rendered on the edge and using <NuxtLink
         :href="isD1 ? 'https://developers.cloudflare.com/d1/' : 'https://turso.tech'"
         target="_blank"
         rel="noopener"
