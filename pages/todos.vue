@@ -66,7 +66,7 @@ const items = [[{
     <template #header>
       <h3 class="text-lg font-semibold leading-6">
         <NuxtLink to="/">
-        JesseJesse.com
+       to do items
         </NuxtLink>
       </h3>
 
