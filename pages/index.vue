@@ -37,10 +37,10 @@ const { loggedIn } = useUserSession()
       />
     </template>
     <p class="font-medium">
-      Welcome! login and start your list. 
+      Welcome to Nuxt Notes!
     </p>
     <p>
-      A <a href="https://nuxt.com" target="_blank" class="text-primary-500" rel="noopener">Nuxt</a>&nbsp;to-do-list&nbsp;<a :href="hosting.url" target="_blank" rel="noopener" class="text-primary-500">&nbsp;{{ hosting.title }}&nbsp;</a>rendered on the edge with a backend<NuxtLink
+      A <a href="https://nuxt.com" target="_blank" class="text-primary-500" rel="noopener">Nuxt</a>&nbsp;to-do-list&nbsp;<a :href="hosting.url" target="_blank" rel="noopener" class="text-primary-500">&nbsp;{{ hosting.title }}&nbsp;</a>rendered on the edge with a backend&nbsp;<NuxtLink
         :href="isD1 ? 'https://developers.cloudflare.com/d1/' : 'https://turso.tech'"
         target="_blank"
         rel="noopener"
