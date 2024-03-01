@@ -21,7 +21,7 @@ useSeoMeta({
   viewport: 'width=device-width, initial-scale=1, maximum-scale=1',
   title: 'Nuxt Todos Edge',
   description:
-    'A Nuxt demo hosted with Edge-side rendering, authentication and queyring a SQLite database',
+    'A Nuxt Fullstack with authentication and SQLite database',
   ogImage: '/social-image.png',
   twitterImage: '/social-image.png',
   twitterCard: 'summary_large_image',
@@ -48,7 +48,7 @@ useSeoMeta({
         target="_blank"
         class="text-sm text-gray-500 hover:text-gray-700"
       >
-        GitHub
+       /sudo-self
       </NuxtLink>
       ·
       <NuxtLink
@@ -56,7 +56,7 @@ useSeoMeta({
         target="_blank"
         class="text-sm text-gray-500 hover:text-gray-700"
       >
-        Twitter
+       @ilostmyipad
       </NuxtLink>
     </footer>
   </UContainer>
