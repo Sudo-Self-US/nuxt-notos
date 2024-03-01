@@ -51,8 +51,7 @@ const { loggedIn } = useUserSession()
     </p>
     <hr class="dark:border-gray-700">
     <p class="text-sm text-gray-700 dark:text-gray-300 italic">
-      No personal informations regarding your GitHub account are stored in database.<br>
-      We store only the todos created linked with your GitHub ID.
+       powered by JesseJesse.com
     </p>
   </UCard>
 </template>
